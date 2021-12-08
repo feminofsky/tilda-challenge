@@ -1,4 +1,4 @@
-## Quiz application
+# Quiz application
 
 This is a simple quiz application for [Tilda](https://www.tilda.de/) coding challege that uses Tilda Quiz GraphQL API.
 
@@ -25,9 +25,17 @@ Install Yarn:
 ```
 https://yarnpkg.com/lang/en/docs/install
 
-
 Yarn version: 
   1.22.17
+```
+
+### Installing    
+
+
+Clone the repo:
+
+```
+https://github.com/feminofsky/tilda-challenge.git
 ```
 
 ### Building and Running
