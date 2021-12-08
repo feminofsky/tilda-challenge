@@ -1,0 +1,8 @@
+schema: https://tilda-quiz.hasura.app/v1/graphql
+documents: ./src/graphql/queries/*.graphql
+generates:
+  src/graphql/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

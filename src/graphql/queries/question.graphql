@@ -1,0 +1,19 @@
+query getQuestionByID($id: uuid!) {
+  questions_by_pk(id: $id) {
+    id
+    quiz_id
+    answer
+    text
+    options
+  }
+}
+
+query getQuestionsByQuizID($quiz_id: uuid!) {
+  questions(limit: 1, where: { quiz_id: { _eq: $quiz_id } }) {
+    id
+    answer
+    options
+    text
+    quiz_id
+  }
+}

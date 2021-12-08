@@ -1,0 +1,22 @@
+query getQuizzes {
+  quizzes {
+    id
+    name
+    questions {
+      id
+      answer
+    }
+  }
+}
+
+query getQuizByID($id: uuid!) {
+  quizzes_by_pk(id: $id) {
+    name
+    questions {
+      id
+      answer
+      options
+      text
+    }
+  }
+}
