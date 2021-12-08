@@ -1,6 +1,6 @@
 # Quiz application
 
-This is a simple quiz application for [Tilda](https://www.tilda.de/) coding challege that uses Tilda Quiz GraphQL API.
+This is a simple quiz application for [Tilda](https://www.tilda.de/) Coding Challenge that uses Tilda Quiz GraphQL API.
 
 
 ## Getting Started
