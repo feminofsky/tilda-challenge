@@ -44,7 +44,7 @@ yarn install
 yarn start
 ```
 
-### Unit/Integration Testing
+### Unit Testing
 ```
 // run all tests
 yarn test
